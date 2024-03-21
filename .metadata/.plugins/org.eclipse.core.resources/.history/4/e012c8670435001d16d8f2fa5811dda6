@@ -1,0 +1,19 @@
+import java.util.*;
+public class Q4 {
+	public static void main(String[] args)
+	{
+		int L=40;
+		int U=250;
+		int N=5;
+		
+		int sum=0;
+		for(int i=L; i<=U; i++)
+		{
+			if (i%N==0)
+			{
+				sum+=i;
+			}
+		}
+		System.out.println("Sum of numbers between 40 and 250 that are divisible by 5 are : "+sum);
+	}
+}
